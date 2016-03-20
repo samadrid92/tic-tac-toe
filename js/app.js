@@ -16,13 +16,17 @@ $(document).ready(function()  {
       }else if(clickCount % 2 !== 0){
           $(this).text("O");
           clickCount ++;
-
-      }
+        }
     }
   });
 
-  $('btn').on("click", function (){
-    clickCount = 0;
+
+
+
+
+
+  $('.btn').on("click", function (){
+      $(".box").text("");
   });
 
 
