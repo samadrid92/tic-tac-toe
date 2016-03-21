@@ -3,7 +3,52 @@
   background-color: ;
 }
 
+.container {
+  background: url(http://i.imgur.com/qU5zb8L.jpg);
+  background-size: cover;
+  b
+}
+
+col-md-12 {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
 .box {
-  border: 1px solid black;
-  height: 150px;
+  font-family: 'Play', sans-serif;
+  border: 8px solid white;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+  font-size: 160px;
+}
+
+.1 {
+  font-size: 1500px;
+}
+
+.0 {
+  font-size: 1500px;
+}
+
+
+
+.btn {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  background-color: green;
+
+}
+
+.btn:hover {
+  background-color: red;
+  border-color: #4ecdc4;
 }
